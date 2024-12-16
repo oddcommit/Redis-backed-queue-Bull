@@ -24,10 +24,11 @@ A Node.js service that processes IDs using Bull queue and Redis.
 
 Send a POST request to `/process-ids` with a JSON body:
 
-json
+```json
 {
-"ids": [12345, 67890]
+  "ids": [12345, 67890]
 }
+```
 
 ## Development
 

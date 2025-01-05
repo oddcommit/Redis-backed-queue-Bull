@@ -6,7 +6,7 @@ services:
       - "3000:3000"
     environment:
       - REDIS_HOST=redis
-      - REDIS_PORT=6379
+      - REDIS_PORT=6371
     volumes:
       - .:/app
     command: npm run dev
@@ -16,4 +16,4 @@ services:
   redis:
     image: redis:alpine
     ports:
-      - "6379:6379"
+      - "6371:6371"
